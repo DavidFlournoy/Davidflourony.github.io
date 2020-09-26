@@ -1,0 +1,56 @@
+header {
+    background-color:  darkcyan;
+    text-align: center;
+    margin-top: 10px;
+    padding: 1.5rem;
+    margin: auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+    box-shadow: 5px 8px 2px black;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#name {
+    color: darkorange;
+    padding-top: 10px;
+    margin-left: 15%;
+}
+
+#davePic {
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px;
+    width: 160px;
+    height: auto; 
+}
+
+hr {
+    width: 700px;
+    margin-left: 0%;
+}
+
+#footer {
+    background-color: darkcyan;
+    margin: auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+    color: rgb(243, 241, 241);
+    box-shadow: 5px 8px 2px black;
+    text-align: center;
+
+}
+main, nav {
+    margin: auto;
+    padding: 0.75rem;
+    max-width: 45rem;
+}
