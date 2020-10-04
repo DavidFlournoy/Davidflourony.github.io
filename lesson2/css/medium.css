@@ -1,0 +1,24 @@
+@media only screen and (min-width: 32.5em){
+    main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    align-content: center;
+}
+
+section img {
+    max-width: 250px;
+    height: 500px;
+}
+
+body {
+    margin-left: 2em;
+    padding: 4em;
+    margin-bottom: 2em;
+}
+
+}
